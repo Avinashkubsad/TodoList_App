@@ -1,0 +1,5 @@
+1. Create a new React app with below command
+ npm create vite@latest todolist_app
+
+2. install  Dependencies using 
+ES7+ React/Redux/React-Native snippets   ---> for rafc to create a component
