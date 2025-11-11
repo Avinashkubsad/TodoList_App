@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "uuid": "^13.0.0"
+  }
+}
