@@ -3,3 +3,21 @@
 
 2. install  Dependencies using 
 ES7+ React/Redux/React-Native snippets   ---> for rafc to create a component
+
+3. App.js i smain ntry point for reactjs
+in if we use <> </> then it is called fragments so that we can write in that what we have to display in the browser
+
+
+4. ClassNameis very important in this 
+
+5. vite.config.js is the config u can make changes so that it will effect whole project 
+   ex :     export default defineConfig({
+            plugins: [react()],
+            server: {
+            port: 3000,   // 👈 change this to whatever you want
+            open: true    // (optional) auto-opens browser
+           }
+        })
+
+
+        
