@@ -26,6 +26,13 @@ in if we use <> </> then it is called fragments so that we can write in that wha
 7. when you type  someyhing and submit then the page reloads automatically
    so to prevent that we shoould evnt   e.preventDefault();
 
+ --> after that i ahve to pass the value to todowrapper 
+ i.e parent component  useState 
+
+
+ 
+
+
 
 
         
