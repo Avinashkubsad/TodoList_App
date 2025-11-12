@@ -23,6 +23,9 @@ in if we use <> </> then it is called fragments so that we can write in that wha
    //TodoForm
 6. useState -> To keep track whatever the user is Typing 
 
+7. when you type  someyhing and submit then the page reloads automatically
+   so to prevent that we shoould evnt   e.preventDefault();
+
 
 
         
