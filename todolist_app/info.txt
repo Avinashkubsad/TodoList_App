@@ -8,7 +8,7 @@ ES7+ React/Redux/React-Native snippets   ---> for rafc to create a component
 in if we use <> </> then it is called fragments so that we can write in that what we have to display in the browser
 
 
-4. ClassNameis very important in this 
+4. ClassName is very important in this 
 
 5. vite.config.js is the config u can make changes so that it will effect whole project 
    ex :     export default defineConfig({
