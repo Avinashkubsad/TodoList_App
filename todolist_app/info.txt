@@ -23,14 +23,31 @@ in if we use <> </> then it is called fragments so that we can write in that wha
    //TodoForm
 6. useState -> To keep track whatever the user is Typing 
 
-7. when you type  someyhing and submit then the page reloads automatically
-   so to prevent that we shoould evnt   e.preventDefault();
+7. when you type  something and submit then the page reloads automatically
+   so to prevent that we should use event   e.preventDefault();
 
- --> after that i ahve to pass the value to todowrapper 
- i.e parent component  useState 
+ --> after that i have to pass the value to todowrapper parent component
+ i.e use/import useState in parent component
+
+ 8 **Important**
+   --> if you want to pass the values then use props 
+
+   | Direction      | Method                | Example                  |
+| -------------- | --------------------- | ------------------------ |
+| Parent → Child | Props                 | `<Child data={value} />` |
+| Child → Parent | Callback              | `onChange(value)`        |
+| Both ways      | Controlled components | Input example above      |
 
 
- 
+// Parent
+<Child value={text} onChange={setText} />
+
+// Child
+<input value={value} onChange={(e) => onChange(e.target.value)} />
+
+
+
+
 
 
 
