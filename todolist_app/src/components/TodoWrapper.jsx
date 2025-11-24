@@ -11,7 +11,7 @@ export const TodoWrapper = () => {
     </h2>
     <div className='TodoWrapper'>
 
-      <TodoForm>
+      <TodoForm addTodo= {addTodo}>     ////addTodo is a property &  {addtodo } = is a function
         
       </TodoForm>
     </div>

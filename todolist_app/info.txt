@@ -28,7 +28,7 @@ in if we use <> </> then it is called fragments so that we can write in that wha
 7. when you type  something and submit then the page reloads automatically
    so to prevent that we should use event   e.preventDefault();
 
- --> after that i have to pass the value to todowrapper parent component
+ --> after that i have to pass the value to todowrapper (parent component)
  i.e use/import useState in parent component
 
  8 **Important**
@@ -38,7 +38,7 @@ in if we use <> </> then it is called fragments so that we can write in that wha
 | -------------- | --------------------- | ------------------------ |
 | Parent → Child | Props                 | `<Child data={value} />` |
 | Child → Parent | Callback              | `onChange(value)`        |
-| Both ways      | Controlled components | Input example above      |
+| Both ways      | Controlled components | Input example       |
 
 
 // Parent
