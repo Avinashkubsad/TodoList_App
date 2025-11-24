@@ -1,9 +1,10 @@
+*** To run the project use npm run dev command ***
+
 1. Create a new React app with below command
  npm create vite@latest todolist_app
 
 2. install  Dependencies using 
 ES7+ React/Redux/React-Native snippets   ---> for rafc to create a component
-
 
 3. App.js i smain ntry point for reactjs
 in if we use <> </> then it is called fragments so that we can write in that what we have to display in the browser
