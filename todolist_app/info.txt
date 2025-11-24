@@ -48,7 +48,8 @@ in if we use <> </> then it is called fragments so that we can write in that wha
 <input value={value} onChange={(e) => onChange(e.target.value)} />
 
 
-
+   9. use uuid to create a new value/id   
+     --> import it using import {v4 asuuid } from 'uuid' 
 
 
 

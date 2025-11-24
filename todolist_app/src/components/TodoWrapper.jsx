@@ -1,14 +1,15 @@
 import React,{useState} from 'react'
 import { TodoForm } from './TodoForm'
 import {v4 as uuidv4} from 'uuid'   // to generate unique id for each todo item
-uuidv4()   // initialize the uuid function
+//uuidv4()   // initialize the uuid function
 
 export const TodoWrapper = () => {
   const[todos,setTodos] = useState([])
 
 
   const addTodo = todo =>{
-      setTodos([...todos, {id:uuidv4(),task :todo,completed:false}])
+      setTodos([...todos, {id:uuidv4(),task :todo,completed:false, isEditing :false}])
+      console.log(todos);
 
   }
   return (
