@@ -7,13 +7,14 @@ export const TodoWrapper = () => {
     <>
     <h1>Hi Avinash Welcome Buddy!!</h1>
     <h2>
-      Ready to To do something useful Todayy!!
+      Ready to To do something Productive Todayy!!
     </h2>
     <div className='TodoWrapper'>
 
-      <TodoForm addTodo= {addTodo}>     ////addTodo is a property &  {addtodo } = is a function
-        
-      </TodoForm>
+   <TodoForm >
+  {/* addTodo is a property & {addTodo} is a function */}
+</TodoForm>
+
     </div>
     </>
   )
